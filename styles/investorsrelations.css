@@ -83,7 +83,7 @@ html{
   width: 60%;
 
   background: linear-gradient( rgba(0,0,0,0.5), 
-  rgba(0, 0, 0, 0.5) ),url('/img/slider1.jpg') no-repeat;
+  rgba(0, 0, 0, 0.5) ),url('img/slider1.jpg') no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -239,7 +239,7 @@ line-height: 1.6;
 .financial--container-3-img{
   width: 22px;
   height: 20px;
-  background-image: url('/img/aroow-r-dark.png');
+  background-image: url('img/aroow-r-dark.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -247,7 +247,7 @@ line-height: 1.6;
 .financial--container-3-img-changed{
   width: 22px;
   height: 20px;
-  background-image: url('/img/arrow-r-white.png');
+  background-image: url('img/arrow-r-white.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -255,7 +255,7 @@ line-height: 1.6;
 .financial--container-3-img.active{
   width: 22px;
   height: 20px;
-  background-image: url('/img/arrow-r-white.png');
+  background-image: url('img/arrow-r-white.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
