@@ -1,0 +1,488 @@
+.investors--information{
+  max-width: 1240px;
+  display: flex;
+  margin: 2em auto;
+  padding: 0 .5em;
+}
+
+.investor-events{
+  width: 48%;
+  display: flex;
+  flex-direction:column;
+  margin: 0 3% 0 0;
+}
+
+.investor--title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.wifiImg{
+  width: 25px;
+  height: 25px;
+}
+
+.investor--events-stats{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  padding: 40px 34px 40px;
+  background: #fff;
+  position: relative;
+  border-bottom: 10px solid transparent;
+}
+
+.investor--events-stats:hover{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  background: #fff;
+  position: relative;
+}
+
+.first{
+  max-height: 480px;
+}
+
+.first:hover{
+  border-bottom: 10px solid #e50914
+}
+
+.second{
+  min-height: 480px;
+}
+
+.investor--event-container{
+  margin: .5em 0;
+}
+
+.investor--events-stats-1{
+  font-size: 22px;
+  letter-spacing: 0.12px;
+  line-height: 32px;
+  margin: .5em 0;
+}
+
+.investor--events-stats-2{
+  font-size: 14px;
+  font-weight: 700;
+  margin: .5em 0;
+}
+
+.investor--events-stats-3{
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.investor--events-stats-3-part1,
+.investor--events-stats-3-part2{
+ display: flex;
+ align-items: center;
+ font-size: 16px;
+}
+
+.investor--events-stats-3-part1{
+  border-right: 1px solid black;
+  margin-right: 2%;
+  padding: 0 1em 0 0;
+}
+
+.partImg{
+  width: 30px;
+  height: 22px;
+}
+
+.all--events{
+  max-width: 103px;
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.all--event-btn{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight:600;
+  color: #e50914;
+  padding: 0;
+  margin: 0;
+}
+
+.eventButtonImg{
+  width: 10px;
+  height: 10px;
+  margin: 0 0 0 .2em;
+}
+
+.investor--kit{
+  width: 48%;
+}
+
+.investor--events-stats > ul {
+  padding: 0;
+}
+
+.investor--events-stats > ul > li {
+  color: #221F1F;
+  padding: 20px 0;
+  font-size: 24px;
+  letter-spacing: 0.12px;
+  line-height: 32px;
+  list-style-type: none;
+  font-weight: 600;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.investor--events-stats > ul > li a{
+  text-decoration: none;
+  color: #221F1F;
+  padding: 8px .4em;
+  font-size: 22px;
+  letter-spacing: 0.12px;
+}
+
+.investor--events-stats > ul > li a:hover{
+  cursor: pointer;
+  color: #e50914;
+  border-left: 2px solid #e50914;
+}
+
+.second{
+  padding: 45px 34px 70px;
+}
+
+.financial-release-n-updates{
+  width: 100%;
+  background-color: #f3f3ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 3em 0;
+}
+
+.financial--container{
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  background-image: url('./img/financial-releases-bg.png');
+  background-repeat:no-repeat;
+  background-position:top  right;
+}
+
+.financial--container-1{
+  width: 100%;
+  display: flex;
+  margin: 3em 0;
+  padding: 0 1em;
+}
+
+.financial-content{
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 442px;
+}
+
+.financial--container-1 img{
+  width: 28px;
+  height: 23px;
+  margin: 0 1em 0 0;
+}
+
+.financial-image{
+  width: 28px;
+  height: 23px;
+  margin: 0 1em 0 0;
+  background-image: url('./img/wifi-signal.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.financial-image-changed{
+  width: 28px;
+  height: 23px;
+  margin: 0 1em 0 0;
+  background-image: url('./img/icons-wifi-white.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.financial--container-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  height: 100%;
+  grid-template-areas: 
+  "o o t t e e";
+}
+
+.grid-01{
+  grid-area: o;
+}
+
+.grid-02{
+  grid-area: t;
+}
+
+.grid-03{
+  grid-area: e;
+}
+
+.financial--container-2-subcontainer{
+  background-color: #fff;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  padding: 2em 1em;
+  position: relative;
+}
+
+.border-red-bottom{
+ display: none;
+  height: 5%;
+  background-color: var(--red);
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom:0;
+}
+
+.background-shadow{
+  background-image: url('./img/shadow-nav.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100%;
+  left:0;
+  right:0;
+  opacity: .4;
+}
+
+.financial--container-2-subcontainer img{
+  width: 100%;
+  height: 50px;
+}
+
+.financial--container-2-subcontainer:hover{
+  .border-red-bottom{
+    display: block;
+  }
+}
+
+.financial--container-2-subcontainer-title{
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.financial--container-2-subcontainer-title{
+  text-decoration: none;
+  color:#221F1F;
+}
+
+.financial-container-a{
+  text-decoration: none;
+  color:#221F1F;
+}
+
+.financial-container-a-changed{
+  text-decoration: none;
+  color:#e50914;
+}
+
+.financial--container-2-subcontainer-date{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+@media(max-width:480px){
+  .financial--container-1{
+    margin: 1em 0;
+  }
+
+  .financial-release-n-updates{
+    padding: 0 0 1em 0;
+  }
+
+  .financial-content{
+    font-size: 20px;
+  }
+
+  .financial--container-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1em;
+    width: 100%;
+    grid-template-areas: 
+      " o "
+      " t "
+      " e ";
+  }
+
+  .grid-01{
+    grid-area: o;
+  }
+
+  .grid-02{
+    grid-area: t;
+  }
+
+  .grid-03{
+    grid-area: e;
+  }
+
+  .financial--container-2-subcontainer{
+    background-color: #fff;
+    box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+    padding: 1em 1em;
+  }
+
+  .financial--container-2-subcontainer-title{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .financial--container-2-subcontainer-date{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1em 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px){
+  .financial--container-1{
+    margin: 1em 0;
+  }
+
+  .financial-release-n-updates{
+    padding: 0 0 1em 0;
+  }
+
+  .financial-content{
+    font-size: 22px;
+  }
+
+  .financial--container-2{
+    display: grid;
+    grid-template-columns: repeat(6, fr);
+    grid-template-rows: repeat (2, auto);
+    gap: 1em;
+    height: 100%;
+    grid-template-areas: 
+      "o o o o o o"
+      "t t t e e e";
+  }
+
+  .financial--container-2-subcontainer{
+    width: auto;
+    max-height: 149px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+    padding: 2em 1em;
+  }
+
+  .financial--container-2-subcontainer-title{
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .financial--container-2-subcontainer-date{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1em 0;
+  }
+
+  .grid-01{
+    grid-area: o;
+  }
+
+  .grid-02{
+    grid-area: t;
+  }
+
+  .grid-03{
+    grid-area: e;
+  }
+}
+
+.financial--container-3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3em 0 1em;
+ }
+ 
+ .release--btn{
+   width: 205px;
+   border: none;
+   background-color: transparent;
+   font-style: inherit;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 11px 20px;
+   display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+ }
+ 
+ .financial--container-3-img{
+   width: 22px;
+   height: 20px;
+   background-image: url('./img/aroow-r-dark.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+ 
+ .financial--container-3-img-changed{
+   width: 22px;
+   height: 20px;
+   background-image: url('./img/arrow-r-white.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+ 
+ .financial--container-3-img.active{
+   width: 22px;
+   height: 20px;
+   background-image: url('./img/arrow-r-white.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+ 
+ .release--btn-changed{
+   width: 205px;
+   border: none;
+   background-color: #e50914;
+   border: 2px solid #e50914;
+   color: #fff;
+   font-style: inherit;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 11px 10px 11px 20px;
+   display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+ }
+ 
+ .release--btn-changed:hover{
+   cursor: pointer;
+   background-color: transparent;
+   border: 2px solid #e50914;
+   color:#e50914;
+   padding: 11px 10px 11px 20px; 
+ }
+ 
+ .release--btn-img{
+   width: 22px;
+   height: 20px;
+ }
+

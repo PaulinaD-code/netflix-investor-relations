@@ -1,0 +1,109 @@
+/* Quarterly Earnings */
+
+.quarterly--earnings{
+  width: 100%;
+  padding: 2em 0 3em;
+}
+
+.quarterly--earnings.active{
+  width: 100%;
+  background-image: url('/img/isap.jpg');
+  background: linear-gradient( rgba(0,0,0,0.5), 
+  rgba(0, 0, 0, 0.5) ),url('/img/quarterly-earnings-bg.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2em 0 3em;
+}
+
+.quarterly--earnings-changed{
+  width: 100%;
+  background-image: url('/img/isap.jpg');
+  background: linear-gradient( rgba(0,0,0,0.9), 
+  rgba(0, 0, 0, 0.8) ),url('/img/quarterly-earnings-bg.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2em 0 3em;
+}
+
+.quarterly--earnings-changed a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.quarterly--container{
+  max-width: 1240px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 0 2em 0;
+}
+
+@media (max-width: 770px){
+  .quarterly--title{
+    font-size: 22px;
+  }
+
+  .quarterly--container--1{
+    font-size: 18px;
+  }
+
+  .quarterly--subcontainer a{
+    font-size: 12px;
+  }
+
+  .quarterly--subcontainerImg{
+    width:30px;
+    height: 27px;
+  }
+  
+  .quarterly--subcontainer img{
+    width: 40px;
+    height: 30px;
+  }
+}
+
+.quarterly--title{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1.7em .5em .3em .5em;
+}
+
+.quarterly--container--1{
+  font-size: 1.4rem;
+  letter-spacing: 0.12px;
+  margin-bottom: 30px;
+  padding: .7em .5em .5em;
+}
+
+.quarterly--container--2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.quarterly--subcontainer{
+  display: flex;
+  align-items: center;
+}
+
+.quarterly--subcontainer a{
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 0 0 15px;
+}
+
+.quarterly--subcontainerImg{
+  width:68px;
+  height: 50px;
+}
+
+.quarterly--subcontainer img{
+  width: 45px;
+  height: 40px;
+}

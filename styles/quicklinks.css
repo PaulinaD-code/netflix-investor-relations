@@ -1,0 +1,330 @@
+/* quick links */
+
+.quick--links{
+  width: 100%;
+  background-color: #f3f3ef;
+  padding: 0 1em;
+  display: flex;
+}
+
+.quick--container{
+  max-width: 1240px;
+  margin: 0 auto 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick--links-offer{
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  margin: 3em auto 0;
+}
+
+.quick--title{
+  width: 25%;
+  text-align:center;
+  font-size: 30px;
+  font-weight: 600px;
+  color: #e50914;
+  background-color: black;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.quick--title.active{
+  color: #fff;
+}
+
+.quick--title-changed{
+  width: 25%;
+  text-align:center;
+  font-size: 30px;
+  font-weight: 600px;
+  color: #fff;
+  background-color: black;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.red-strip{
+  width: .7em;
+  background-color:#e50914;
+}
+
+.quick-subcontainer{
+  background-color: #fff;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding: 4em .5em;
+}
+
+.quick-li-subcontainer{
+ display: flex;
+ flex-direction: column;
+ margin: 0 1em;
+ align-items: center;
+}
+
+.quick-li-subcontainer a {
+ text-decoration: none;
+ font-size: 24px;
+ color: black;
+}
+
+.quick-li-subcontainer a:hover{
+  cursor: pointer;
+  color: #e50914;
+}
+
+.quickImg-1{
+  width: 85px;
+  height: 80px;
+  margin: 0 .5em 1em;
+}
+
+.quickImg-2{
+  width: 80px;
+  height: 80px;
+  margin: 0 .5em 1em;
+}
+
+.quickImg-3{
+  width: 110px;
+  height: 80px;
+  margin: 0 .5em 1em;
+}
+
+.quick-subtitle{
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 770px){
+  .quarterly--title{
+    font-size: 22px;
+  }
+
+  .quarterly--container--1{
+    font-size: 18px;
+  }
+
+  .quarterly--container--2{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+  }
+
+  .quarterly--subcontainer{
+    margin: .3em 0;
+  }
+
+  .quarterly--subcontainer a{
+    font-size: 12px;
+    margin: 0 0 0 3px;
+  }
+
+  .quarterly--subcontainerImg{
+    width:30px;
+    height: 27px;
+  }
+  
+  .quarterly--subcontainer img{
+    width: 40px;
+    height: 30px;
+  }
+
+  .quick--links{
+    width: 100%;
+    padding: 0 .7em;
+  }
+  .quick--container{
+    width: 100%;
+  }
+
+  .quick--links-offer{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .quick--title,
+  .quick--title-changed{
+    width: 100%;
+    min-height: 170px;
+  }
+
+  .red-strip{
+    width:100%;
+    height: 1em;
+  }
+
+  .quick-subcontainer{
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .quick-li-subcontainer{
+    padding: 1em .5em;
+  }
+
+  .quick-subtitle a{
+    font-size: 18px;
+  }
+
+  .quickImg-1{
+    width: 70px;
+    height: 60px;
+  }
+
+  .quickImg-2{
+    width: 80px;
+    height: 55px;
+  }
+
+  .quickImg-3{
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media (max-width:1024px){
+  .advertisement--container{
+    flex-direction: column;
+  }
+
+  .company-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1em;
+    margin: 0;
+  }
+
+  .company-profile.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding-left:1em;
+  }
+
+  .price-title{
+    font-size: 36px;
+  }
+
+  .company-profile-advertisement p{
+    font-size: 14px;
+  }
+
+  .company-profile-advertisement{
+    padding: 5em 2em;
+   }
+
+  .company-redi-stripe{
+    width: 100%;
+    height: 3em;
+  }
+
+  .price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+  }
+
+  .price-code{
+    font-size: 12px;
+  }
+
+  .actual-price{
+    font-size: 37px;
+  }
+
+  .discount,
+  .volume{
+    font-size: 13px;
+  }
+
+  .addittional{
+    font-size: 9px;
+  }
+}
+
+@media(min-width:771px) and (max-width: 1300px){
+  .quick--links-offer{
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+    margin: 3em auto 0;
+  }
+}
+
+@media (max-width: 768px){
+  .investors--information{
+    flex-direction: column;
+  }
+
+  .investor-events,
+  .investor--kit{
+    width: 98%;
+  }
+
+  .investor--title{
+    font-size: 22px;
+  }
+
+  .investor--events-stats-1{
+    font-size: 18px;
+  }
+
+  .investor--events-stats-2{
+    font-size: 11px;
+  }
+
+  .investor--events-stats-3-part1,
+  .investor--events-stats-3-part2{
+    font-size: 12px;
+  }
+
+  .partImg{
+    width:27px;
+    height: 23px;
+  }
+
+  .investor--events-stats > ul > li > a {
+    color: #221F1F;
+    padding: 15px 0 15px 5px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 5px 0 5px 0;
+  }
+
+  .investor--events-stats > ul > li{
+    color: #221F1F;
+    padding: 15px 0;
+    font-size: 24px;
+    letter-spacing: 0.12px;
+    line-height: 1;
+    list-style-type: none;
+    font-weight: 600;
+    border-bottom: 1px solid #d4d4d4; 
+  }
+
+  .second{
+    padding: 25px 34px 20px;
+    min-height: 400px;
+  }
+}
+
