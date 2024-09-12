@@ -173,7 +173,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
-  background-image: url('./img/financial-releases-bg.png');
+  background-image: url('img/financial-releases-bg.png');
   background-repeat:no-repeat;
   background-position:top  right;
 }
@@ -202,7 +202,7 @@
   width: 28px;
   height: 23px;
   margin: 0 1em 0 0;
-  background-image: url('./img/wifi-signal.png');
+  background-image: url('img/wifi-signal.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -211,7 +211,7 @@
   width: 28px;
   height: 23px;
   margin: 0 1em 0 0;
-  background-image: url('./img/icons-wifi-white.png');
+  background-image: url('img/icons-wifi-white.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -255,7 +255,7 @@
 }
 
 .background-shadow{
-  background-image: url('./img/shadow-nav.png');
+  background-image: url('img/shadow-nav.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -437,7 +437,7 @@
  .financial--container-3-img{
    width: 22px;
    height: 20px;
-   background-image: url('./img/aroow-r-dark.png');
+   background-image: url('img/aroow-r-dark.png');
    background-repeat: no-repeat;
    background-size: contain;
  }
@@ -445,7 +445,7 @@
  .financial--container-3-img-changed{
    width: 22px;
    height: 20px;
-   background-image: url('./img/arrow-r-white.png');
+   background-image: url('img/arrow-r-white.png');
    background-repeat: no-repeat;
    background-size: contain;
  }
@@ -453,7 +453,7 @@
  .financial--container-3-img.active{
    width: 22px;
    height: 20px;
-   background-image: url('./img/arrow-r-white.png');
+   background-image: url('img/arrow-r-white.png');
    background-repeat: no-repeat;
    background-size: contain;
  }
