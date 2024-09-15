@@ -40,7 +40,7 @@ nav{
   width: 18px;
   height: 18px;
   background-color: transparent;
-  background-image: url('img/black-and-white.png');
+  background-image: url('/img/black-and-white.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -105,7 +105,7 @@ nav{
   height: 35px;
   background-color: transparent;
   border: none;
-  background-image: url('img/hamburgerCross.png');
+  background-image: url('/img/hamburgerCross.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
