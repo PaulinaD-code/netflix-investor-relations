@@ -112,21 +112,21 @@ footer{
 }
 
 .fot-facebook-red{
-  background-image: url('/img/facebook-red.png');
+  background-image: url('img/facebook-red.png');
   background-repeat: no-repeat;
   background-size:auto;
   background-position:center ;
 }
 
 .fot-fab-twitter{
- background-image: url('/img/twitter-12.png');
+ background-image: url('img/twitter-12.png');
   background-repeat: no-repeat;
   background-size:auto;
   background-position:center ;
 }
 
 .fot-fab-instagram{
-  background-image: url('/img/insta12-r.png');
+  background-image: url('img/insta12-r.png');
   background-repeat: no-repeat;
   background-size:auto;
   background-position:center ;
@@ -134,7 +134,7 @@ footer{
 }
 
 .fot-facebook-white{
-  background-image: url('/img/facebook12-w.png');
+  background-image: url('img/facebook12-w.png');
   background-repeat: no-repeat;
   background-size:auto;
   background-position:center ;
